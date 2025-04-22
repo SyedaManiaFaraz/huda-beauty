@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Makeup</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">hudabeauty</div>
+  
+    <div class="country-select">
+      <label for="country">Country:</label>
+      <select id="country">
+        <option value="us">USA</option>
+        <option value="uk">UK</option>
+        <option value="uae">UAE</option>
+        <option value="pk">Pakistan</option>
+        <option value="in">India</option>
+        <option value="fr">France</option>
+      </select>
+    </div>
+  
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  
+    <nav class="navbar" id="navbar">
+      <a href="primer.html" class="active">primer</a>
+      <a href="base.html">base</a>
+      <a href="eyeshades.html">eye shades</a>
+      <a href="eyeliner.html">eye liner</a>
+      <a href="lipstick.html">lipstick</a>
+    </nav>
+  </header>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Huda Beauty</h1>
+      <p>Discover the power of flawless beauty products and exclusive collections.</p>
+      <a href="#contact" class="btn">Contact US</a>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+</body>
+</html>
